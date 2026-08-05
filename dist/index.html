@@ -1013,6 +1013,13 @@
       text-align: center;
       border-top: 1px solid rgba(201,145,145,0.2);
     }
+    footer .duck-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 28px;
+      margin-bottom: 14px;
+    }
     footer .duck-mini {
       width: 70px;
       margin: 0 auto 14px;
@@ -1024,6 +1031,11 @@
       color: var(--rosa-medio);
       font-size: 1.4rem;
       opacity: 0.85;
+    }
+    footer .side-icon {
+      width: 40px;
+      opacity: 0.8;
+      mix-blend-mode: multiply;
     }
     footer .small {
       font-family: 'Jost', sans-serif;
@@ -1225,7 +1237,11 @@ tu presencia</h2>
 
   <!-- ══════════════════ FOOTER ══════════════════ -->
   <footer>
-    <img class="duck-mini" src="assets/patito2.jpg" alt="" style="width: 126px; height: 158px">
+    <div class="duck-row">
+      <img class="side-icon" src="assets/icon-sobre.png" alt="" style="width: 77px; height: 73px">
+      <img class="duck-mini" src="assets/patito2.jpg" alt="" style="width: 126px; height: 158px">
+      <img class="side-icon" src="assets/icon-regalo.png" alt="" style="width: 70px; height: 70px">
+    </div>
     <p style="font-size: 40px">con amor, Alejandra &amp; Samuel</p>
     <p class="small" style="font-weight: 500; font-size: 14px">ESPERANDO A ALESSIA</p>
   </footer>
